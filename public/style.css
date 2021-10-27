@@ -1,58 +1,61 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-weight: 300;
-  }
-  
-  body {
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    font-weight: 300;
-    background: #50a3a2;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .container {
-    margin: 10% auto;
-    padding: 80px 0;
-    text-align: center;
-  }
-  
-  .container h1 {
-    font-size: 40px;
-    font-weight: 200;
-  }
-  
-  form {
-    padding: 20px 0;
-    position: relative;
-  }
-  form input {
-    border: 1px solid rgba(252, 252, 252, 0.4);
-    background-color: rgba(252, 252, 252, 0.2);
-    width: 250px;
-    border-radius: 3px;
-    font-family: "Source Sans Pro", sans-serif;
-    padding: 10px 15px;
-    margin: 0 auto 10px auto;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    font-weight: 300;
-  }
-  
-  form button {
-    appearance: none;
-    outline: 0;
-    background-color: white;
-    border: 0;
-    padding: 10px 15px;
-    color: #50a3a2;
-    border-radius: 3px;
-    width: 250px;
-    font-size: 18px;
-  }
-  
+h1 {
+  margin-bottom: 50px;
+}
+body {
+  background: hsla(227, 100%, 46%, 1);
+  background: linear-gradient(
+    45deg,
+    hsla(227, 100%, 46%, 1) 0%,
+    hsla(299, 70%, 51%, 1) 68%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(227, 100%, 46%, 1) 0%,
+    hsla(299, 70%, 51%, 1) 68%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(227, 100%, 46%, 1) 0%,
+    hsla(299, 70%, 51%, 1) 68%
+  );
+}
+.white_box {
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 150px;
+  border-radius: 25px;
+}
+.icon {
+  margin-left: 170px;
+  margin-top: 50px;
+}
+.login_form {
+  margin-left: 220px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+#ip2 {
+  border-radius: 25px;
+  border: 2px solid lightgray;
+  padding: 20px;
+  margin-bottom: 3%;
+  width: 400px;
+  height: 15px;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: green;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 25px;
+  width: 400px;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
